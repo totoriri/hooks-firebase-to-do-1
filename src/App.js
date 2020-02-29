@@ -5,7 +5,6 @@ import firebase from 'firebase'; // 追記
 import 'firebase/firestore'; // 追記
 
 function App() {
-
   // 第１変数がstate, 第２変数がstateを変化させる関数
   const [input, setInput] = useState('');
   const [todoList, setTodoList] = useState([]);
